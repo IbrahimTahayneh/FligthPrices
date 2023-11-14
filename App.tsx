@@ -1,16 +1,15 @@
-import { StyleSheet, Text, View, SafeAreaView } from "react-native";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { AppContainer } from "./src";
 
 export default function App() {
-  return <AppContainer />;
-}
+  const queryClient = new QueryClient();
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
+  return (
+    <QueryClientProvider client={queryClient}>
+      <SafeAreaProvider>
+        <AppContainer />
+      </SafeAreaProvider>
+    </QueryClientProvider>
+  );
+}
