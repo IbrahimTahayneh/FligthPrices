@@ -40,9 +40,5 @@ Before running the app, ensure you have the following:
 5. Follow the Expo CLI instructions to run the app on your preferred platform (iOS or Android).
 
 ## Screenshots
+<img src="screenshots/screenshot1.png" alt="Screenshot 1" width="300"/> <img src="screenshots/screenshot2.png" alt="Screenshot 2" width="300"/><img src="screenshots/screenshot3.png" alt="Screenshot 3" width="300"/>
 
-![Screenshot 1](screenshot/screenshot1.png)
-*Caption for Screenshot 1*
-
-![Screenshot 2](screenshot/screenshot2.png)
-*Caption for Screenshot 2*
